@@ -1,0 +1,108 @@
+/*
+
+
+Theme Name: Mega
+Theme URI: https://wwww.google.com
+Author: Candas & Favad
+Description: Special theme for Mega
+Version: 1.0
+
+
+
+
+*/
+
+body{
+    background: #fff;
+}
+
+/*
+! codes de style pour l'en-tête et le pied de page
+*/
+
+header{
+    background: #222;
+    width: 100%;   
+    height: 120px;
+}
+
+footer{
+    background: #222;
+    color: #fff;
+  
+      
+}
+
+.navigation{
+    list-style-type: none ;
+    display: block;
+    padding-top: 40px;
+    
+    
+}
+
+
+
+
+.navigation li{
+    
+    display: inline;
+    padding: 10px;
+    position: relative;
+    font-size: 26px;
+    
+   
+}
+
+
+.navigation li > a{
+    color:black;
+}
+
+.navigation li > a:hover{
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.1s;
+}
+
+a{
+    
+    text-decoration: none;
+    
+}
+
+
+
+
+.col{
+  
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.notreMission p , h3{
+    text-align: center;
+}
+
+.espaceur{
+    height: 90px;
+}
+
+.form-search{
+    margin-top: 25px;
+}
+
+/* 
+
+
+
+? Nous faisons les arrangements "style" pour le thème que 
+? nous avons fait dans ce fichier.
+
+
+
+*/
